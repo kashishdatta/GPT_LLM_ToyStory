@@ -68,7 +68,7 @@ pip install -r requirements.txt
 # Milestone Outputs
 Generated text is saved at each milestone in the format milestoneX.txt
 
-#Results
+# Results
 
 - The final model demonstrates the ability to generate text that captures the essence of Toy Story characters. The outputs exhibit contextual coherence and reflect the personalities of the characters in both tone and style.
 
