@@ -19,6 +19,46 @@ For the output, it saves the generated text at each milestone into a file "(mile
 
 - **Milestone Training**: During training, intermediate outputs are saved at regular intervals as milestone checkpoints. This allows you to track the model’s progress, compare versions, and even revisit earlier results for insights or nostalgia. "Think of it as leaving breadcrumbs on the road to AI greatness!" 👼🚀👨‍🚀
 
+# Milestones
+
+The project was completed in eight milestones, each building on the previous one:
+
+1. Dataset Exploration and Preparation
+
+Load and preprocess the Toy Story dataset by cleaning and tokenizing the text.
+Split the dataset into training and validation sets.
+
+2. Basic Model Usage (Bigram Language Model)
+
+Implement a simple Bigram Language Model for initial experimentation.
+Evaluate its performance on the dataset and generate preliminary text.
+Self-attention & Softmax Iteration
+
+3. Introduce self-attention to compute contextual relationships between tokens.
+
+Use masked softmax to ensure causal predictions.
+
+4. Multi-head Attention
+
+Enhance the model with multi-head attention, allowing it to focus on multiple aspects of the input simultaneously.
+
+5. Feed Forward Layers
+
+Add feed-forward layers to improve the model’s ability to capture complex patterns.
+
+6. Residual Connections
+
+Incorporate residual connections to stabilize training and mitigate vanishing gradients.
+
+7. Layer Normalization
+
+Add layer normalization for better numerical stability and faster convergence.
+
+8.Dropout
+
+Introduce dropout regularization to reduce overfitting and improve generalization.
+
+
 # Install Dependencies
 Make sure you have Python and PyTorch installed. Install the required packages using:
 
