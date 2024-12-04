@@ -7,6 +7,10 @@ This repository contains a GPT-based language model trained on a **Toy Story dat
 We inteded to train the model to understand and generate text in the style of the beloved Toy Story characters. It uses a sequence-to-sequence modeling approach with state-of-the-art transformer techniques to create outputs that mimic the tone and dialogue of the Toy Story movies.
 For the output, it saves the generated text at each milestone into a file "(milestoneX.txt)".
 
+# Why Toy Story?
+
+- Toy Story is a beloved franchise filled with distinctive and relatable characters. Training a model on its scripts provided an excellent challenge in understanding contextual nuances and replicating unique character voices.
+
 ## 🛠️ Features
 
 - **Transformer Architecture**: The backbone of the model is a powerful transformer architecture that leverages multi-head self-attention to understand contextual relationships between words, layer normalization to ensure stable training, and residual connections to prevent vanishing gradients. This combination allows the model to capture intricate details of Toy Story dialogues and interactions. "Buzz and Woody would call it cutting-edge teamwork!" 🌌👨‍🚀🚀
