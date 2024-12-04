@@ -159,3 +159,29 @@ class GPTLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1)
         return idx
 
+milestones = range(3, 9)
+for milestone in milestones:
+    print(f"\n--- Milestone {milestone} ---")
+    
+    model = GPTLanguageModel()
+    model = model.to(device)
+    
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    
+    for iter in range(max_iters):
+        if iter % eval_interval == 0 or iter == max_iters - 1:
+            losses = estimate_loss()
+            print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+            print(f"Difference: {losses['val'] - losses['train']:.4f}")
+    
+        xb, yb = get_batch('train')
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
+    
+    context = torch.zeros((1, 1), dtype=torch.long, device=device)
+    output = decode(model.generate(context, max_new_tokens=500)[0].tolist())
+    
+    with open(f'milestone{milestone}.txt', 'w') as f:
+        f.write(output)
