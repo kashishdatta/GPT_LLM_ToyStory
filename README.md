@@ -19,5 +19,14 @@ For the output, it saves the generated text at each milestone into a file "(mile
 
 - **Milestone Training**: During training, intermediate outputs are saved at regular intervals as milestone checkpoints. This allows you to track the model’s progress, compare versions, and even revisit earlier results for insights or nostalgia. "Think of it as leaving breadcrumbs on the road to AI greatness!" 👼🚀👨‍🚀
 
+# Install Dependencies
+Make sure you have Python and PyTorch installed. Install the required packages using:
+
+pip install -r requirements.txt
+
+
+# Milestone Outputs
+Generated text is saved at each milestone in the format milestoneX.txt
+
   
 
