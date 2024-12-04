@@ -11,7 +11,7 @@ For the output, it saves the generated text at each milestone into a file "(mile
 
 - **Transformer Architecture**: The backbone of the model is a powerful transformer architecture that leverages multi-head self-attention to understand contextual relationships between words, layer normalization to ensure stable training, and residual connections to prevent vanishing gradients. This combination allows the model to capture intricate details of Toy Story dialogues and interactions. "Buzz and Woody would call it cutting-edge teamwork!" 🌌👨‍🚀🚀
 
-- **Custom Dataset**: The model is trained on a carefully curated and preprocessed Toy Story script dataset. This ensures the generated text mirrors the tone, quirks, and personalities of the beloved characters. Preprocessing steps like tokenization and cleaning guarantee clean and meaningful inputs for training.
+- **Dataset Preparation**: The model is trained on a carefully curated and preprocessed Toy Story script dataset. This ensures the generated text mirrors the tone, quirks, and personalities of the beloved characters. Preprocessing steps like tokenization and cleaning guarantee clean and meaningful inputs for training.
 "It's like feeding the model a treasure chest of Toy Story magic!" 🐑👩‍🌾🤠🐎
 
 - **Text Generation**: Harness the model to create creative, character-themed outputs with customizable lengths. Whether it’s Buzz’s bold declarations, Woody’s heartfelt lines, or Rex’s anxious ramblings, the model can generate them all, bringing your favorite characters to life in words.
@@ -67,6 +67,10 @@ pip install -r requirements.txt
 
 # Milestone Outputs
 Generated text is saved at each milestone in the format milestoneX.txt
+
+#Results
+
+- The final model demonstrates the ability to generate text that captures the essence of Toy Story characters. The outputs exhibit contextual coherence and reflect the personalities of the characters in both tone and style.
 
   
 
