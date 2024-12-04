@@ -54,7 +54,7 @@ The project was completed in eight milestones, each building on the previous one
 
 - Add layer normalization for better numerical stability and faster convergence.
 
-8.Dropout
+8. Dropout
 
 - Introduce dropout regularization to reduce overfitting and improve generalization.
 
