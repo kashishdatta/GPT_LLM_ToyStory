@@ -25,38 +25,38 @@ The project was completed in eight milestones, each building on the previous one
 
 1. Dataset Exploration and Preparation
 
-Load and preprocess the Toy Story dataset by cleaning and tokenizing the text.
-Split the dataset into training and validation sets.
+- Load and preprocess the Toy Story dataset by cleaning and tokenizing the text.
+- Split the dataset into training and validation sets.
 
 2. Basic Model Usage (Bigram Language Model)
 
-Implement a simple Bigram Language Model for initial experimentation.
-Evaluate its performance on the dataset and generate preliminary text.
-Self-attention & Softmax Iteration
+- Implement a simple Bigram Language Model for initial experimentation.
+- Evaluate its performance on the dataset and generate preliminary text.
 
-3. Introduce self-attention to compute contextual relationships between tokens.
+3. Self-attention & Softmax Iteration
 
-Use masked softmax to ensure causal predictions.
+- Introduce self-attention to compute contextual relationships between tokens.
+- Use masked softmax to ensure causal predictions.
 
 4. Multi-head Attention
 
-Enhance the model with multi-head attention, allowing it to focus on multiple aspects of the input simultaneously.
+- Enhance the model with multi-head attention, allowing it to focus on multiple aspects of the input simultaneously.
 
 5. Feed Forward Layers
 
-Add feed-forward layers to improve the model’s ability to capture complex patterns.
+- Add feed-forward layers to improve the model’s ability to capture complex patterns.
 
 6. Residual Connections
 
-Incorporate residual connections to stabilize training and mitigate vanishing gradients.
+- Incorporate residual connections to stabilize training and mitigate vanishing gradients.
 
 7. Layer Normalization
 
-Add layer normalization for better numerical stability and faster convergence.
+- Add layer normalization for better numerical stability and faster convergence.
 
 8.Dropout
 
-Introduce dropout regularization to reduce overfitting and improve generalization.
+- Introduce dropout regularization to reduce overfitting and improve generalization.
 
 
 # Install Dependencies
